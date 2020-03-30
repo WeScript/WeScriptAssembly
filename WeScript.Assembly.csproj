@@ -56,6 +56,12 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WeScript.SDK">
+      <HintPath>D:\Other\C++ Projects\#WeScript\WeScriptLoader\#LSRIP\bin\Release\System\WeScript.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="WeScript.Wrapper">
+      <HintPath>D:\Other\C++ Projects\#WeScript\WeScriptLoader\#LSRIP\bin\Release\System\WeScript.Wrapper.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -65,14 +71,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WeScript.SDK\WeScript.SDK.csproj">
-      <Project>{a0ad29d9-f1a5-4440-bbe7-8f53c0fae77c}</Project>
-      <Name>WeScript.SDK</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WeScript.Wrapper\WeScript.Wrapper.vcxproj">
-      <Project>{20471b64-f582-448f-ba22-24b2161bb8b8}</Project>
-      <Name>WeScript.Wrapper</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
